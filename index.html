@@ -1,0 +1,45 @@
+<!DOCTYPE html>  
+<html lang="en">  
+  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>CBDB Statistic</title>  
+    <link rel="stylesheet" href="css.css">
+</head>  
+  
+<body>  
+    <div class="container">  
+
+        <div class="chart-container">  
+
+            <svg class="svg-title" width="520" height="60">  
+                <image href="./images/svg1.svg" width="500" height="60"/>  
+            </svg>  
+
+            <svg class="svg-title" width="520" height="60">  
+                <image href="./images/svg2.svg" width="500" height="60"/>  
+            </svg>  
+
+            <svg id="chart1" width="520" height="300"></svg>  
+
+            <hr class="separator">  
+        </div>  
+
+
+        <div class="chart-container">  
+            <svg class="svg-title" width="520" height="60">  
+                <image href="./images/svg3.svg" width="500" height="60"/>  
+            </svg>  
+            <svg class="svg-title" width="520" height="60">  
+                <image href="./images/svg4.svg" width="500" height="60"/>  
+            </svg>  
+            <svg id="chart2" width="550" height="300"></svg>  
+        </div>  
+    </div>  
+  
+    <script src="https://d3js.org/d3.v7.min.js"></script>  
+    <script src="script.js"></script>  
+</body>  
+  
+</html>  
