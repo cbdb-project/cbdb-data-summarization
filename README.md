@@ -1,5 +1,10 @@
 # CBDB Data Summarization
-Statistics on the number of characters and various datatypes in some dynasties of CBDB
+Using visualization methods to summarize current CBDB (China Biographical Database Project) data
+
+# Visualization items
+
+- The number of persons that CBDB has collected in different dynasties
+- Data distribution across different data types 
 
 ## Demonstration Link
 https://cbdb-project.github.io/cbdb-data-summarization/cbdb-statistic.html
