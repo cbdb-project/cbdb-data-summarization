@@ -1,5 +1,5 @@
 # CBDB Data Summarization
-Using visualization methods to summarize current CBDB (China Biographical Database Project) data
+Using visualization methods to summarize CBDB (China Biographical Database Project) data
 
 # Visualization items
 
