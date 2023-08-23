@@ -1,0 +1,38 @@
+name: Run 2 statistical notebooks
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.11
+
+      - name: Install dependencies
+        run: |
+          pip install jupyter nbconvert
+          pip install pandas
+      
+      - name: Run notebooks
+        run: |
+          jupyter nbconvert --to notebook --execute *.ipynb
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v4.1.0
+        with:
+          github_token: ${{ secrets.CDS_TOKEN_FOR_GIT_ACTION }}
+          file_pattern: '*.csv *.js ./images/*'
+          commit_message: 'Update generated files'
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+            github_token: ${{ secrets.CDS_TOKEN_FOR_GIT_ACTION }}
+            branch: main
