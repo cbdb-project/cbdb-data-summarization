@@ -28,10 +28,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4.1.0
         with:
           github_token: ${{ secrets.CDS_TOKEN_FOR_GIT_ACTION }}
-          file_pattern: |
-            '*.csv '
-            '*.js'
-            './images/*'
+          file_pattern: '*.csv *.js ./images/*'  
           commit_message: 'Update generated files'
 
       - name: Push changes
