@@ -8,7 +8,8 @@ const chart1Data = [
 { label: "Ming", value: 220255 },
 { label: "Qing", value: 119238 },
 { label: "Minguo", value: 4683 }
-];// Chart 1 Data const chart2Data = [
+];// Chart 1 Data 
+const chart2Data = [
 { label: "Number of Persons", value: 529560 },
 { label: "Social Associations", value: 185030 },
 { label: "Biographical Addresses", value: 322661 },
