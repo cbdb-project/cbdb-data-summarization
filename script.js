@@ -21,21 +21,9 @@ const chart2Data = [
 { label: "Texts", value: 54219 }
 ];// Chart 2 Data
 
-
-
-
-
-
-
-
-
-
-
-
- 
- 
-
-
+//Do not modify the variable names of chart1Data and chart2Data, 
+//as well as the comments for '//Chart 1 Data' and '//Chart 2 Data', 
+//otherwise there may be issues during the update process
 
 // Create Chart 1  
 const chart1Container = d3.select("#chart1");  
