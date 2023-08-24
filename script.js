@@ -1,14 +1,3 @@
-const chart2Data = [
-{ label: "Number of Persons", value: 529560 },
-{ label: "Social Associations", value: 185030 },
-{ label: "Biographical Addresses", value: 322661 },
-{ label: "Alternate Names", value: 173619 },
-{ label: "Kin Relationships", value: 532065 },
-{ label: "Entry into Office", value: 161261 },
-{ label: "Office Postings", value: 312636 },
-{ label: "Social Distinction", value: 58372 },
-{ label: "Texts", value: 54219 }
-];// Chart 2 Data
 const chart1Data = [
 { label: "Tang", value: 53886 },
 { label: "5 Dynasties", value: 1791 },
@@ -20,6 +9,23 @@ const chart1Data = [
 { label: "Qing", value: 119238 },
 { label: "Minguo", value: 4683 }
 ];// Chart 1 Data 
+const chart2Data = [
+{ label: "Number of Persons", value: 529560 },
+{ label: "Social Associations", value: 185030 },
+{ label: "Biographical Addresses", value: 322661 },
+{ label: "Alternate Names", value: 173619 },
+{ label: "Kin Relationships", value: 532065 },
+{ label: "Entry into Office", value: 161261 },
+{ label: "Office Postings", value: 312636 },
+{ label: "Social Distinction", value: 58372 },
+{ label: "Texts", value: 54219 }
+];// Chart 2 Data
+
+
+
+
+
+
 
 
  
