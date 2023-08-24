@@ -30,6 +30,8 @@ const chart2Data = [
 
 
 
+
+
  
  
 
