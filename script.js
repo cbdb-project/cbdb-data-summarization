@@ -1,25 +1,27 @@
 const chart1Data = [
-{ label: "Tang", value: 53886 },
-{ label: "5 Dynasties", value: 1791 },
-{ label: "Song", value: 74010 },
-{ label: "Liao", value: 339 },
+{ label: "Tang", value: 53885 },
+{ label: "5 Dynasties", value: 1788 },
+{ label: "Song", value: 73714 },
+{ label: "Liao", value: 340 },
 { label: "Jin", value: 704 },
-{ label: "Yuan", value: 24692 },
-{ label: "Ming", value: 220255 },
-{ label: "Qing", value: 119238 },
+{ label: "Yuan", value: 24695 },
+{ label: "Ming", value: 217956 },
+{ label: "Qing", value: 113900 },
 { label: "Minguo", value: 4683 }
 ];// Chart 1 Data 
 const chart2Data = [
-{ label: "Number of Persons", value: 529560 },
-{ label: "Social Associations", value: 185030 },
-{ label: "Biographical Addresses", value: 322661 },
-{ label: "Alternate Names", value: 173619 },
-{ label: "Kin Relationships", value: 532065 },
-{ label: "Entry into Office", value: 161261 },
-{ label: "Office Postings", value: 312636 },
-{ label: "Social Distinction", value: 58372 },
-{ label: "Texts", value: 54219 }
+{ label: "Number of Persons", value: 521442 },
+{ label: "Social Associations", value: 182737 },
+{ label: "Biographical Addresses", value: 315901 },
+{ label: "Alternate Names", value: 170006 },
+{ label: "Kin Relationships", value: 527354 },
+{ label: "Entry into Office", value: 133371 },
+{ label: "Office Postings", value: 304734 },
+{ label: "Social Distinction", value: 56897 },
+{ label: "Texts", value: 52272 }
 ];// Chart 2 Data
+
+
 
 //Do not modify the variable names of chart1Data and chart2Data, 
 //as well as the comments for '//Chart 1 Data' and '//Chart 2 Data', 
