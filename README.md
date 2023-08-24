@@ -1,6 +1,6 @@
 # CBDB Data Summarization
 
-Welcome to the CBDB Data Summarization project repository! This project aims to provide visual summaries of the China Biographical Database Project (CBDB) data using effective visualization techniques. We also save the data used as scv files.
+Welcome to the CBDB Data Summarization project repository! This project aims to provide visual summaries of the China Biographical Database Project (CBDB) data using effective visualization techniques. The data is also saved as CSV files.
 
 ## Visualization Items
 
