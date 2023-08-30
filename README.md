@@ -15,7 +15,7 @@ Visit the [CBDB Data Summarization Demonstration](https://cbdb-project.github.io
 
 ## Contributors
 
-[Zhang Wei](https://github.com/orgs/cbdb-project/people/zwyixian), CBDB Harvard Group/Visual Analytics and Intelligence Group, Zhejiang University
+[Wei Zhang](https://github.com/orgs/cbdb-project/people/zwyixian), CBDB Harvard Group/Visual Analytics and Intelligence Group, Zhejiang University
 
 [Yitian Chen](https://github.com/oscarchen666), Visual Analytics and Intelligence Group, Zhejiang University
 
