@@ -17,7 +17,7 @@ Visit the [CBDB Data Summarization Demonstration](https://cbdb-project.github.io
 
 [Zhang Wei](https://github.com/orgs/cbdb-project/people/zwyixian), CBDB Harvard Group/College of Computer Science and Technology, Zhejiang University
 
-[oscarchen666](https://github.com/oscarchen666), College of Computer Science and Technology, Zhejiang University
+[Yitian Chen](https://github.com/oscarchen666), College of Computer Science and Technology, Zhejiang University
 
 [Hongsu Wang](https://github.com/sudoghut), CBDB
 
