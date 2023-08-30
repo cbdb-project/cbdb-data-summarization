@@ -13,6 +13,15 @@ This repository includes visualizations for the following aspects of the CBDB da
 
 Visit the [CBDB Data Summarization Demonstration](https://cbdb-project.github.io/cbdb-data-summarization/cbdb-statistic.html) to interact with the visualizations.
 
+## Contributors
+
+[Zhang Wei](https://github.com/orgs/cbdb-project/people/zwyixian) , CBDB
+
+[oscarchen666](https://github.com/oscarchen666), Zhejiang Unversity
+
+[Hongsu Wang](https://github.com/sudoghut), CBDB
+
+
 ## License
 
 This project is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/). You are free to use and share the content for non-commercial purposes, as long as you provide appropriate attribution and share any derivative works under the same license.
