@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="480px" height="415px" viewBox="0 0 480 415" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 16</title>
+    <defs>
+        <polygon id="path-1" points="0 15.0909091 154.588214 15.0909091 169.416769 5.87570791e-13 184.817435 15.0909091 480 15.0909091 480 415 0 415"></polygon>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="480" height="415" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="A1" transform="translate(-2236.000000, -1633.000000)">
+            <g id="编组-16" transform="translate(2236.000000, 1633.000000)">
+                <text id="资源人数统计（人）" font-family="SourceHanSerifCN-Heavy, Source Han Serif CN" font-size="13" font-weight="800" line-spacing="15" letter-spacing="0.144444447" fill="#927251">
+                    <tspan x="181" y="36">资源人数统计（人）</tspan>
+                </text>
+                <text id="188" font-family="TimesNewRomanPSMT, Times New Roman" font-size="10" font-weight="normal" fill="#000000">
+                    <tspan x="442.645" y="63.9951012">188</tspan>
+                </text>
+                <text id="17" font-family="TimesNewRomanPSMT, Times New Roman" font-size="10" font-weight="normal" fill="#000000">
+                    <tspan x="221.205" y="82.0651012">17</tspan>
+                </text>
+                <text id="16" font-family="TimesNewRomanPSMT, Times New Roman" font-size="10" font-weight="normal" fill="#000000">
+                    <tspan x="221.205" y="100.135101">16</tspan>
+                </text>
+                <text id="2" font-family="TimesNewRomanPSMT, Times New Roman" font-size="10" font-weight="normal" fill="#000000">
+                    <tspan x="204.765" y="117.205131">2</tspan>
+                </text>
+                <text id="2" font-family="TimesNewRomanPSMT, Times New Roman" font-size="10" font-weight="normal" fill="#000000">
+                    <tspan x="204.765" y="135.275131">2</tspan>
+                </text>
+                <text id="1" font-family="TimesNewRomanPSMT, Times New Roman" font-size="10" font-weight="normal" fill="#000000">
+                    <tspan x="201.765" y="153.345131">1</tspan>
+                </text>
+                <text id="1" font-family="TimesNewRomanPSMT, Times New Roman" font-size="10" font-weight="normal" fill="#000000">
+                    <tspan x="201.765" y="171.415131">1</tspan>
+                </text>
+                <text id="1" font-family="TimesNewRomanPSMT, Times New Roman" font-size="10" font-weight="normal" fill="#000000">
+                    <tspan x="201.765" y="189.485136">1</tspan>
+                </text>
+                <use id="矩形" stroke="#979797" mask="url(#mask-2)" stroke-width="2" stroke-dasharray="2" xlink:href="#path-1"></use>
+                <text id="遼史-歷代帝王廟諡年諱譜:一卷-明清婦女" font-family="STKaitiSC-Black, Kaiti SC" font-size="10" font-weight="700" line-spacing="18" letter-spacing="0.111111113" fill="#3A3A3A">
+                    <tspan x="170.777778" y="61">遼史</tspan>
+                    <tspan x="77.4766666" y="79">歷代帝王廟諡年諱譜:一卷</tspan>
+                    <tspan x="100" y="97">明清婦女著作數據庫</tspan>
+                    <tspan x="72.3555555" y="115">宋人傳記資料索引(電子版)</tspan>
+                    <tspan x="54.4988889" y="133">Pers DB / 唐代人物知識ベース</tspan>
+                    <tspan x="100" y="151">唐五代人交往詩索引</tspan>
+                    <tspan x="9.89666663" y="169">唐五代人物傳記與社會網絡資料庫(1.0版)</tspan>
+                    <tspan x="150.555556" y="187">陝西通志</tspan>
+                </text>
+                <g id="编组-11" transform="translate(197.000000, 40.000000)" fill="#000000" font-family="TimesNewRomanPS-BoldMT, Times New Roman" font-size="10" font-weight="bold" letter-spacing="-0.0225">
+                    <text id="200">
+                        <tspan x="255" y="9">200</tspan>
+                    </text>
+                    <text id="150">
+                        <tspan x="188.25" y="9">150</tspan>
+                    </text>
+                    <text id="50">
+                        <tspan x="58.75" y="9">50</tspan>
+                    </text>
+                    <text id="100">
+                        <tspan x="124.5" y="9">100</tspan>
+                    </text>
+                    <text id="0">
+                        <tspan x="0" y="9">0</tspan>
+                    </text>
+                </g>
+                <g id="编组-8" opacity="0.65" transform="translate(199.000000, 54.000000)" stroke="#CFCFCF" stroke-dasharray="3.3" stroke-width="1.1">
+                    <line x1="-177" y1="177.5" x2="178" y2="177.5" id="路径" transform="translate(0.500000, 177.500000) rotate(90.000000) translate(-0.500000, -177.500000) "></line>
+                    <line x1="-112.5" y1="177.5" x2="242.5" y2="177.5" id="路径" transform="translate(65.000000, 177.500000) rotate(90.000000) translate(-65.000000, -177.500000) "></line>
+                    <line x1="-48" y1="177.5" x2="307" y2="177.5" id="路径" transform="translate(129.500000, 177.500000) rotate(90.000000) translate(-129.500000, -177.500000) "></line>
+                    <line x1="16.5" y1="177.5" x2="371.5" y2="177.5" id="路径" transform="translate(194.000000, 177.500000) rotate(90.000000) translate(-194.000000, -177.500000) "></line>
+                    <line x1="81" y1="177.5" x2="436" y2="177.5" id="路径" transform="translate(258.500000, 177.500000) rotate(90.000000) translate(-258.500000, -177.500000) "></line>
+                </g>
+                <rect id="矩形" stroke="#979797" stroke-width="0.5" fill="#D8D8D8" x="199.25" y="75.25" width="21.5" height="6.5"></rect>
+                <rect id="矩形" stroke="#979797" stroke-width="0.5" fill="#D8D8D8" x="199.25" y="93.25" width="20.5" height="6.5"></rect>
+                <rect id="矩形" stroke="#979797" stroke-width="0.5" fill="#D8D8D8" x="199.25" y="111.25" width="2.5" height="6.5"></rect>
+                <rect id="矩形" stroke="#979797" stroke-width="0.5" fill="#D8D8D8" x="199.25" y="129.25" width="2.5" height="6.5"></rect>
+                <rect id="矩形" stroke="#979797" stroke-width="0.5" fill="#D8D8D8" x="199.25" y="147.25" width="1" height="6.5"></rect>
+                <rect id="矩形" stroke="#979797" stroke-width="0.5" fill="#D8D8D8" x="199.25" y="165.25" width="1" height="6.5"></rect>
+                <rect id="矩形" stroke="#979797" stroke-width="0.5" fill="#D8D8D8" x="199.25" y="183.25" width="1" height="6.5"></rect>
+                <rect id="矩形" stroke="#979797" stroke-width="0.5" fill="#D8D8D8" x="199.25" y="57.25" width="241.5" height="6.5"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

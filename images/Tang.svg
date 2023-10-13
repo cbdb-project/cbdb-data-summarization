@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="480px" height="429px" viewBox="0 0 480 429" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 10</title>
+    <defs>
+        <polygon id="path-1" points="0 15.0909091 29.2049118 15.0909091 44.0334672 3.08868122e-12 59.4341332 15.0909091 480 15.0909091 480 415 0 415"></polygon>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="480" height="415" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="A1" transform="translate(-1061.000000, -1633.000000)">
+            <g id="编组-10" transform="translate(1061.000000, 1633.000000)">
+                <text id="资源人数统计（人）" font-family="SourceHanSerifCN-Heavy, Source Han Serif CN" font-size="13" font-weight="800" line-spacing="15" letter-spacing="0.144444447" fill="#927251">
+                    <tspan x="181" y="36">资源人数统计（人）</tspan>
+                </text>
+                <g id="编组-11" transform="translate(197.000000, 40.000000)" fill="#000000" font-family="TimesNewRomanPS-BoldMT, Times New Roman" font-size="10" font-weight="bold" letter-spacing="-0.0225">
+                    <text id="25,000">
+                        <tspan x="249" y="9">25,000</tspan>
+                    </text>
+                    <text id="5,000">
+                        <tspan x="45" y="9">5,000</tspan>
+                    </text>
+                    <text id="10,000">
+                        <tspan x="96" y="9">10,000</tspan>
+                    </text>
+                    <text id="15,000">
+                        <tspan x="147" y="9">15,000</tspan>
+                    </text>
+                    <text id="20,000">
+                        <tspan x="198" y="9">20,000</tspan>
+                    </text>
+                    <text id="0">
+                        <tspan x="0" y="9">0</tspan>
+                    </text>
+                </g>
+                <use id="矩形" stroke="#979797" mask="url(#mask-2)" stroke-width="2" stroke-dasharray="2" xlink:href="#path-1"></use>
+                <text id="唐五代人物傳記與社會網絡資料庫(1.0版" font-family="STKaitiSC-Black, Kaiti SC" font-size="10" font-weight="700" line-spacing="18" letter-spacing="0.111111113" fill="#3A3A3A">
+                    <tspan x="191" y="44"></tspan>
+                    <tspan x="9.89666663" y="62">唐五代人物傳記與社會網絡資料庫(1.0版)</tspan>
+                    <tspan x="107.81" y="80">唐代墓誌匯編:二卷</tspan>
+                    <tspan x="130.333333" y="98">唐刺史考全編</tspan>
+                    <tspan x="100" y="116">唐五代人交往詩索引</tspan>
+                    <tspan x="110.111111" y="134">唐代墓誌彙編續集</tspan>
+                    <tspan x="54.4988889" y="152">Pers DB / 唐代人物知識ベース</tspan>
+                    <tspan x="150.555556" y="170">唐九卿考</tspan>
+                    <tspan x="150.555556" y="188">陝西通志</tspan>
+                    <tspan x="150.555556" y="206">江南通志</tspan>
+                    <tspan x="150.555556" y="224">八閩通志</tspan>
+                    <tspan x="100" y="242">明清婦女著作數據庫</tspan>
+                    <tspan x="150.555556" y="260">襄陽府志</tspan>
+                    <tspan x="150.555556" y="278">紹興府志</tspan>
+                    <tspan x="150.555556" y="296">雲霄廳志</tspan>
+                    <tspan x="160.666667" y="314">舊唐書</tspan>
+                    <tspan x="160.666667" y="332">新唐書</tspan>
+                    <tspan x="130.333333" y="350">重修天津府志</tspan>
+                    <tspan x="150.555556" y="368">荊州府志</tspan>
+                    <tspan x="150.555556" y="386">甘肅通志</tspan>
+                    <tspan x="130.333333" y="404">直隸泰州新志</tspan>
+                </text>
+                <g id="编组-8" opacity="0.65" transform="translate(199.000000, 54.000000)" stroke="#CFCFCF" stroke-dasharray="3.3" stroke-width="1.1">
+                    <line x1="-177" y1="177.5" x2="178" y2="177.5" id="路径" transform="translate(0.500000, 177.500000) rotate(90.000000) translate(-0.500000, -177.500000) "></line>
+                    <line x1="-125.4" y1="177.5" x2="229.6" y2="177.5" id="路径" transform="translate(52.100000, 177.500000) rotate(90.000000) translate(-52.100000, -177.500000) "></line>
+                    <line x1="-73.8" y1="177.5" x2="281.2" y2="177.5" id="路径" transform="translate(103.700000, 177.500000) rotate(90.000000) translate(-103.700000, -177.500000) "></line>
+                    <line x1="-22.2" y1="177.5" x2="332.8" y2="177.5" id="路径" transform="translate(155.300000, 177.500000) rotate(90.000000) translate(-155.300000, -177.500000) "></line>
+                    <line x1="29.4" y1="177.5" x2="384.4" y2="177.5" id="路径" transform="translate(206.900000, 177.500000) rotate(90.000000) translate(-206.900000, -177.500000) "></line>
+                    <line x1="81" y1="177.5" x2="436" y2="177.5" id="路径" transform="translate(258.500000, 177.500000) rotate(90.000000) translate(-258.500000, -177.500000) "></line>
+                </g>
+                <rect id="矩形" stroke="#979797" stroke-width="0.5" fill="#D8D8D8" x="199.25" y="75.25" width="103.5" height="6.5"></rect>
+                <rect id="矩形" stroke="#979797" stroke-width="0.5" fill="#D8D8D8" x="199.25" y="93.25" width="75.5" height="6.5"></rect>
+                <rect id="矩形" stroke="#979797" stroke-width="0.5" fill="#D8D8D8" x="199.25" y="111.25" width="56.5" height="6.5"></rect>
+                <rect id="矩形" stroke="#979797" stroke-width="0.5" fill="#D8D8D8" x="199.25" y="129.25" width="50.5" height="6.5"></rect>
+                <rect id="矩形" stroke="#979797" stroke-width="0.5" fill="#D8D8D8" x="199.25" y="147.25" width="34.5" height="6.5"></rect>
+                <rect id="矩形" stroke="#979797" stroke-width="0.5" fill="#D8D8D8" x="199.25" y="165.25" width="13.5" height="6.5"></rect>
+                <rect id="矩形" stroke="#979797" stroke-width="0.5" fill="#D8D8D8" x="199.25" y="183.25" width="7.5" height="6.5"></rect>
+                <rect id="矩形" stroke="#979797" stroke-width="0.5" fill="#D8D8D8" x="199.25" y="201.25" width="5.5" height="6.5"></rect>
+                <rect id="矩形" stroke="#979797" stroke-width="0.5" fill="#D8D8D8" x="199.25" y="219.25" width="3.5" height="6.5"></rect>
+                <rect id="矩形" stroke="#979797" stroke-width="0.5" fill="#D8D8D8" x="199.25" y="237.25" width="2.5" height="6.5"></rect>
+                <rect id="矩形" stroke="#979797" stroke-width="0.5" fill="#D8D8D8" x="199.25" y="255.25" width="1.5" height="6.5"></rect>
+                <rect id="矩形" stroke="#979797" stroke-width="0.5" fill="#D8D8D8" x="199.25" y="273.25" width="1.5" height="6.5"></rect>
+                <rect id="矩形" stroke="#979797" stroke-width="0.5" fill="#D8D8D8" x="199.25" y="291.25" width="1.5" height="6.5"></rect>
+                <rect id="矩形" stroke="#979797" stroke-width="0.5" fill="#D8D8D8" x="199.25" y="309.25" width="1.5" height="6.5"></rect>
+                <rect id="矩形" stroke="#979797" stroke-width="0.5" fill="#D8D8D8" x="199.25" y="327.25" width="1" height="6.5"></rect>
+                <rect id="矩形" stroke="#979797" stroke-width="0.5" fill="#D8D8D8" x="199.25" y="345.25" width="1" height="6.5"></rect>
+                <rect id="矩形" stroke="#979797" stroke-width="0.5" fill="#D8D8D8" x="199.25" y="363.25" width="1" height="6.5"></rect>
+                <rect id="矩形" stroke="#979797" stroke-width="0.5" fill="#D8D8D8" x="199.25" y="381.25" width="1" height="6.5"></rect>
+                <rect id="矩形" stroke="#979797" stroke-width="0.5" fill="#D8D8D8" x="199.25" y="399.25" width="1" height="6.5"></rect>
+                <rect id="矩形" stroke="#979797" stroke-width="0.5" fill="#D8D8D8" x="199.25" y="57.25" width="239.5" height="6.5"></rect>
+                <text id="23,252" font-family="TimesNewRomanPSMT, Times New Roman" font-size="10" font-weight="normal" letter-spacing="0.044" fill="#000000">
+                    <tspan x="442" y="64">23,252</tspan>
+                </text>
+                <text id="10,033" font-family="TimesNewRomanPSMT, Times New Roman" font-size="10" font-weight="normal" letter-spacing="0.044" fill="#000000">
+                    <tspan x="305" y="81.3684211">10,033</tspan>
+                </text>
+                <text id="7,337" font-family="TimesNewRomanPSMT, Times New Roman" font-size="10" font-weight="normal" letter-spacing="0.044" fill="#000000">
+                    <tspan x="278" y="98.7368421">7,337</tspan>
+                </text>
+                <text id="5,470" font-family="TimesNewRomanPSMT, Times New Roman" font-size="10" font-weight="normal" letter-spacing="0.044" fill="#000000">
+                    <tspan x="258" y="117.105263">5,470</tspan>
+                </text>
+                <text id="4,851" font-family="TimesNewRomanPSMT, Times New Roman" font-size="10" font-weight="normal" letter-spacing="0.044" fill="#000000">
+                    <tspan x="252" y="135.473684">4,851</tspan>
+                </text>
+                <text id="3,300" font-family="TimesNewRomanPSMT, Times New Roman" font-size="10" font-weight="normal" letter-spacing="0.044" fill="#000000">
+                    <tspan x="238" y="153.842105">3,300</tspan>
+                </text>
+                <text id="1,300" font-family="TimesNewRomanPSMT, Times New Roman" font-size="10" font-weight="normal" letter-spacing="0.044" fill="#000000">
+                    <tspan x="215" y="171.210526">1,300</tspan>
+                </text>
+                <text id="728" font-family="TimesNewRomanPSMT, Times New Roman" font-size="10" font-weight="normal" letter-spacing="0.044" fill="#000000">
+                    <tspan x="210" y="189.578947">728</tspan>
+                </text>
+                <text id="528" font-family="TimesNewRomanPSMT, Times New Roman" font-size="10" font-weight="normal" letter-spacing="0.044" fill="#000000">
+                    <tspan x="207" y="207.947368">528</tspan>
+                </text>
+                <text id="280" font-family="TimesNewRomanPSMT, Times New Roman" font-size="10" font-weight="normal" letter-spacing="0.044" fill="#000000">
+                    <tspan x="206" y="225.315789">280</tspan>
+                </text>
+                <text id="274" font-family="TimesNewRomanPSMT, Times New Roman" font-size="10" font-weight="normal" letter-spacing="0.044" fill="#000000">
+                    <tspan x="206" y="243.684211">274</tspan>
+                </text>
+                <text id="151" font-family="TimesNewRomanPSMT, Times New Roman" font-size="10" font-weight="normal" letter-spacing="0.044" fill="#000000">
+                    <tspan x="203" y="262.052632">151</tspan>
+                </text>
+                <text id="124" font-family="TimesNewRomanPSMT, Times New Roman" font-size="10" font-weight="normal" letter-spacing="0.044" fill="#000000">
+                    <tspan x="204" y="279">124</tspan>
+                </text>
+                <text id="102" font-family="TimesNewRomanPSMT, Times New Roman" font-size="10" font-weight="normal" letter-spacing="0.044" fill="#000000">
+                    <tspan x="204" y="298.142857">102</tspan>
+                </text>
+                <text id="100" font-family="TimesNewRomanPSMT, Times New Roman" font-size="10" font-weight="normal" letter-spacing="0.044" fill="#000000">
+                    <tspan x="204" y="316.285714">100</tspan>
+                </text>
+                <text id="86" font-family="TimesNewRomanPSMT, Times New Roman" font-size="10" font-weight="normal" letter-spacing="0.044" fill="#000000">
+                    <tspan x="204" y="333.428571">86</tspan>
+                </text>
+                <text id="84" font-family="TimesNewRomanPSMT, Times New Roman" font-size="10" font-weight="normal" letter-spacing="0.044" fill="#000000">
+                    <tspan x="204" y="351.571429">84</tspan>
+                </text>
+                <text id="77" font-family="TimesNewRomanPSMT, Times New Roman" font-size="10" font-weight="normal" letter-spacing="0.044" fill="#000000">
+                    <tspan x="204" y="369.714286">77</tspan>
+                </text>
+                <text id="66" font-family="TimesNewRomanPSMT, Times New Roman" font-size="10" font-weight="normal" letter-spacing="0.044" fill="#000000">
+                    <tspan x="204" y="387.857143">66</tspan>
+                </text>
+                <text id="56" font-family="TimesNewRomanPSMT, Times New Roman" font-size="10" font-weight="normal" letter-spacing="0.044" fill="#000000">
+                    <tspan x="204" y="406">56</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
