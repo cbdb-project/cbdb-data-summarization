@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="480px" height="415px" viewBox="0 0 480 415" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>矩形</title>
+    <defs>
+        <polygon id="path-1" points="407 1862.09091 436.204912 1862.09091 451.033467 1847 466.434133 1862.09091 887 1862.09091 887 2262 407 2262"></polygon>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="480" height="415" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-dasharray="2">
+        <g id="A1" transform="translate(-407.000000, -1847.000000)" stroke="#FFFFFF" stroke-width="2">
+            <use id="矩形" mask="url(#mask-2)" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>
