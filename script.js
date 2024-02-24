@@ -54,15 +54,15 @@ const chart1Data = [
     { label: "Minguo", value: 4683 }
   ]// Chart 1 Data 
   const chart2Data = [
-    { label: "Number of Persons", value: 529560 },
-    { label: "Social Associations", value: 185030 },
-    { label: "Biographical Addresses", value: 322661 },
-    { label: "Alternate Names", value: 173619 },
-    { label: "Kin Relationships", value: 532065 },
-    { label: "Entry into Office", value: 161261 },
-    { label: "Office Postings", value: 312636 },
-    { label: "Social Distinction", value: 58372 },
-    { label: "Texts", value: 54219 }
+    { label: "Number of Persons 人數", value: 529560 },
+    { label: "Social Associations 社會關係", value: 185030 },
+    { label: "Biographical Addresses 地址", value: 322661 },
+    { label: "Alternate Names 別名", value: 173619 },
+    { label: "Kin Relationships 親屬關係", value: 532065 },
+    { label: "Entry into Office 入仕", value: 161261 },
+    { label: "Office Postings 任官", value: 312636 },
+    { label: "Social Distinction 社會區分", value: 58372 },
+    { label: "Texts 著作", value: 54219 }
   ]// Chart 2 Data
   const chart3Data = [
     { label: "Tang", value: 111, id: "Tang" },
