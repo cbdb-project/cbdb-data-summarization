@@ -1,4 +1,48 @@
 const chart1Data = [
+{ label: "Tang", value: 53895 },
+{ label: "5 Dynasties", value: 1909 },
+{ label: "Song", value: 74360 },
+{ label: "Liao", value: 339 },
+{ label: "Jin", value: 706 },
+{ label: "Yuan", value: 24706 },
+{ label: "Ming", value: 221089 },
+{ label: "Qing", value: 123244 },
+{ label: "Minguo", value: 4682 }
+];// Chart 1 Data 
+const chart2Data = [
+{ label: "Number of Persons", value: 535181 },
+{ label: "Social Associations", value: 186534 },
+{ label: "Biographical Addresses", value: 323736 },
+{ label: "Alternate Names", value: 180535 },
+{ label: "Kin Relationships", value: 537328 },
+{ label: "Entry into Office", value: 162621 },
+{ label: "Office Postings", value: 393176 },
+{ label: "Social Distinction", value: 59786 },
+{ label: "Texts", value: 56813 }
+];// Chart 2 Data
+= [
+{ label: "Number of Persons", value: 535181 },
+{ label: "Social Associations", value: 186534 },
+{ label: "Biographical Addresses", value: 323736 },
+{ label: "Alternate Names", value: 180535 },
+{ label: "Kin Relationships", value: 537328 },
+{ label: "Entry into Office", value: 162621 },
+{ label: "Office Postings", value: 393176 },
+{ label: "Social Distinction", value: 59786 },
+{ label: "Texts", value: 56813 }
+];// Chart 2 Data
+const chart1Data = [
+    { label: "Tang", value: 53886 },
+    { label: "5 Dynasties", value: 1791 },
+    { label: "Song", value: 74010 },
+    { label: "Liao", value: 339 },
+    { label: "Jin", value: 704 },
+    { label: "Yuan", value: 24692 },
+    { label: "Ming", value: 220255 },
+    { label: "Qing", value: 119238 },
+    { label: "Minguo", value: 4683 }
+  ]// Chart 1 Data 
+   = [
     { label: "Tang", value: 53886 },
     { label: "5 Dynasties", value: 1791 },
     { label: "Song", value: 74010 },
