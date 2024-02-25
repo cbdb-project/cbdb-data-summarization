@@ -1,14 +1,3 @@
-const chart2Data = [
-{ label: "Number of Persons 人數", value: 535181 },
-{ label: "Social Associations 社會關係", value: 186534 },
-{ label: "Biographical Addresses 地址", value: 323736 },
-{ label: "Alternate Names 別名", value: 180535 },
-{ label: "Kin Relationships 親屬關係", value: 537328 },
-{ label: "Entry into Office 入仕", value: 162621 },
-{ label: "Office Postings 任官", value: 393176 },
-{ label: "Social Distinction 社會區分", value: 59786 },
-{ label: "Texts 著作", value: 56813 }
-];// Chart 2 Data
 const chart1Data = [
 { label: "Tang", value: 53895 },
 { label: "5 Dynasties", value: 1909 },
@@ -20,6 +9,19 @@ const chart1Data = [
 { label: "Qing", value: 123244 },
 { label: "Minguo", value: 4682 }
 ];// Chart 1 Data 
+const chart2Data = [
+{ label: "Number of Persons 人數", value: 535181 },
+{ label: "Social Associations 社會關係", value: 186534 },
+{ label: "Biographical Addresses 地址", value: 323736 },
+{ label: "Alternate Names 別名", value: 180535 },
+{ label: "Kin Relationships 親屬關係", value: 537328 },
+{ label: "Entry into Office 入仕", value: 162621 },
+{ label: "Office Postings 任官", value: 393176 },
+{ label: "Social Distinction 社會區分", value: 59786 },
+{ label: "Texts 著作", value: 56813 }
+];// Chart 2 Data
+
+
 
 
 const chart3Data = [
