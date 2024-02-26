@@ -54,7 +54,7 @@ const chart3Data = [
   
   // Create Chart 2  
   const chart2Container = d3.select("#chart2")
-  const chart2Margin = { top: 0, right: 20, bottom: 30, left: 140 }
+  const chart2Margin = { top: 0, right: 20, bottom: 30, left: 180 }
   const chart2Width = chart2Container.attr("width") - chart2Margin.left - chart2Margin.right
   const chart2Height = chart2Container.attr("height") - chart2Margin.top - chart2Margin.bottom
   
