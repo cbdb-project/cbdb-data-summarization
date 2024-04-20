@@ -26,6 +26,8 @@ const chart2Data = [
 
 
 
+
+
 const chart3Data = [
   { label: "Tang", value: 111, id: "Tang" },
   { label: "Song", value: 336, id: "Song" },
