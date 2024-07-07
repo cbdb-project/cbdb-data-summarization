@@ -1,3 +1,13 @@
+const chart3Data = [
+{ label: "Tang", value: 120, id: "Tang"},
+{ label: "Song", value: 374, id: "Song"},
+{ label: "Liao", value: 8, id: "Liao"},
+{ label: "Jin", value: 39, id: "Jin"},
+{ label: "Yuan", value: 156, id: "Yuan"},
+{ label: "Ming", value: 487, id: "Ming"},
+{ label: "Qing", value: 213, id: "Qing"}
+];// Chart 3 Data
+
 const chart1Data = [
 { label: "Tang", value: 53895 },
 { label: "5 Dynasties", value: 1909 },
@@ -23,18 +33,6 @@ const chart2Data = [
 
 
 
-
-
-
-const chart3Data = [
-  { label: "Tang", value: 111, id: "Tang" },
-  { label: "Song", value: 336, id: "Song" },
-  { label: "Liao", value: 8, id: "Liao" },
-  { label: "Jin", value: 38, id: "Jin" },
-  { label: "Yuan", value: 153, id: "Yuan" },
-  { label: "Ming", value: 469, id: "Ming" },
-  { label: "Qing", value: 201, id: "Qing" }
-]// Chart 3 Data
   
   
   
