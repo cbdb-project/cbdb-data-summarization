@@ -111,7 +111,7 @@ const chart2Data = [
     .padding(0.2)
   
   const chart3YScale = d3.scaleLinear()
-    .domain([0, d3.max(chart3Data, d => d.value)])
+    .domain([0, d3.max(chart3Data, d => d.value) + 50])
     .range([chart3Height, 0])
   
   
