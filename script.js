@@ -14,21 +14,24 @@ const chart1Data = [
 { label: "Liao", value: 339 },
 { label: "Jin", value: 751 },
 { label: "Yuan", value: 24709 },
-{ label: "Ming", value: 221535 },
-{ label: "Qing", value: 228590 },
+{ label: "Ming", value: 221522 },
+{ label: "Qing", value: 228527 },
 { label: "Minguo", value: 4679 }
 ];// Chart 1 Data 
 const chart2Data = [
-{ label: "Number of Persons 人數", value: 641645 },
-{ label: "Social Associations 社會關係", value: 187916 },
-{ label: "Biographical Addresses 地址", value: 440152 },
-{ label: "Alternate Names 別名", value: 196905 },
-{ label: "Kin Relationships 親屬關係", value: 540677 },
-{ label: "Entry into Office 入仕", value: 253450 },
-{ label: "Office Postings 任官", value: 1976533 },
-{ label: "Social Distinction 社會區分", value: 60982 },
+{ label: "Number of Persons 人數", value: 641568 },
+{ label: "Social Associations 社會關係", value: 187878 },
+{ label: "Biographical Addresses 地址", value: 440059 },
+{ label: "Alternate Names 別名", value: 196850 },
+{ label: "Kin Relationships 親屬關係", value: 540631 },
+{ label: "Entry into Office 入仕", value: 253437 },
+{ label: "Office Postings 任官", value: 1976515 },
+{ label: "Social Distinction 社會區分", value: 60912 },
 { label: "Texts 著作", value: 57387 }
 ];// Chart 2 Data
+
+
+
 
 
 
