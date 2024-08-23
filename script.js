@@ -1,35 +1,38 @@
 const chart3Data = [
-{ label: "Tang", value: 120, id: "Tang"},
-{ label: "Song", value: 374, id: "Song"},
-{ label: "Liao", value: 8, id: "Liao"},
-{ label: "Jin", value: 39, id: "Jin"},
-{ label: "Yuan", value: 156, id: "Yuan"},
-{ label: "Ming", value: 487, id: "Ming"},
-{ label: "Qing", value: 213, id: "Qing"}
+{ label: "Tang", value: 124, id: "Tang"},
+{ label: "Song", value: 384, id: "Song"},
+{ label: "Liao", value: 9, id: "Liao"},
+{ label: "Jin", value: 41, id: "Jin"},
+{ label: "Yuan", value: 162, id: "Yuan"},
+{ label: "Ming", value: 499, id: "Ming"},
+{ label: "Qing", value: 222, id: "Qing"}
 ];// Chart 3 Data
-
 const chart1Data = [
-{ label: "Tang", value: 53895 },
-{ label: "5 Dynasties", value: 1909 },
-{ label: "Song", value: 74360 },
+{ label: "Tang", value: 53918 },
+{ label: "5 Dynasties", value: 1918 },
+{ label: "Song", value: 74892 },
 { label: "Liao", value: 339 },
-{ label: "Jin", value: 706 },
-{ label: "Yuan", value: 24706 },
-{ label: "Ming", value: 221089 },
-{ label: "Qing", value: 123244 },
-{ label: "Minguo", value: 4682 }
+{ label: "Jin", value: 751 },
+{ label: "Yuan", value: 24709 },
+{ label: "Ming", value: 221535 },
+{ label: "Qing", value: 228590 },
+{ label: "Minguo", value: 4679 }
 ];// Chart 1 Data 
 const chart2Data = [
-{ label: "Number of Persons 人數", value: 535181 },
-{ label: "Social Associations 社會關係", value: 186534 },
-{ label: "Biographical Addresses 地址", value: 323736 },
-{ label: "Alternate Names 別名", value: 180535 },
-{ label: "Kin Relationships 親屬關係", value: 537328 },
-{ label: "Entry into Office 入仕", value: 162621 },
-{ label: "Office Postings 任官", value: 393176 },
-{ label: "Social Distinction 社會區分", value: 59786 },
-{ label: "Texts 著作", value: 56813 }
+{ label: "Number of Persons 人數", value: 641645 },
+{ label: "Social Associations 社會關係", value: 187916 },
+{ label: "Biographical Addresses 地址", value: 440152 },
+{ label: "Alternate Names 別名", value: 196905 },
+{ label: "Kin Relationships 親屬關係", value: 540677 },
+{ label: "Entry into Office 入仕", value: 253450 },
+{ label: "Office Postings 任官", value: 1976533 },
+{ label: "Social Distinction 社會區分", value: 60982 },
+{ label: "Texts 著作", value: 57387 }
 ];// Chart 2 Data
+
+
+
+
 
 
 
