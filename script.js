@@ -1,3 +1,23 @@
+const chart4Data = [
+{ label: "Tang", gender: "女", value: 4245 },
+{ label: "Tang", gender: "男", value: 49673 },
+{ label: "5 Dynasties", gender: "男", value: 1823 },
+{ label: "5 Dynasties", gender: "女", value: 95 },
+{ label: "Song", gender: "女", value: 4331 },
+{ label: "Song", gender: "男", value: 70561 },
+{ label: "Liao", gender: "男", value: 254 },
+{ label: "Liao", gender: "女", value: 85 },
+{ label: "Jin", gender: "男", value: 721 },
+{ label: "Jin", gender: "女", value: 30 },
+{ label: "Yuan", gender: "女", value: 685 },
+{ label: "Yuan", gender: "男", value: 24024 },
+{ label: "Ming", gender: "女", value: 36416 },
+{ label: "Ming", gender: "男", value: 185106 },
+{ label: "Qing", gender: "女", value: 8325 },
+{ label: "Qing", gender: "男", value: 220202 },
+{ label: "Minguo", gender: "女", value: 22 },
+{ label: "Minguo", gender: "男", value: 4657 }
+];//Chart 4 Data
 const chart3Data = [
 { label: "Tang", value: 124, id: "Tang"},
 { label: "Song", value: 384, id: "Song"},
@@ -45,10 +65,9 @@ const chart2Data = [
 
 
 
-  
-  
-  
-  
+
+
+
   
   
   //Do not modify the variable names of chart1Data and chart2Data, 
@@ -253,75 +272,353 @@ const chart2Data = [
     .attr("text-anchor", "middle")
   
   
-  // 创建chart3坐标轴
-  const chart3XAxis = d3.axisBottom(chart3XScale)
-  chart3Svg.append("g")
-    .attr("transform", `translate(0, ${chart3Height})`)
-    .call(chart3XAxis)
+  // 创建图表3的坐标轴
+const chart3XAxis = d3.axisBottom(chart3XScale)
+chart3Svg.append("g")
+  .attr("transform", `translate(0, ${chart3Height})`)
+  .call(chart3XAxis)
+  .selectAll("text")
+  .attr("transform", "rotate(-25)")
+  .style("text-anchor", "end")
+  .attr("dx", "1em")
+  .attr("dy", "1em")
+  .attr("fill", "rgba(137, 110, 80, 100)")
+  .style("font-family", "Times New Roman")
+  .style("font-size", "13px")
+  .style("font-weight", "bold")
+
+const chart3YAxis = d3.axisLeft(chart3YScale).ticks(8)
+chart3Svg.append("g")
+  .call(chart3YAxis)
+
+// 初始化选中的柱状图ID
+let selectedBarId = 'Tang'
+
+// 创建图表3的柱状图
+chart3Svg.selectAll("rect")
+  .data(chart3Data)
+  .enter()
+  .append("rect")
+  .attr("x", d => chart3XScale(d.label))
+  .attr("y", d => chart3YScale(d.value))
+  .attr("width", chart3XScale.bandwidth())
+  .attr("height", d => chart3Height - chart3YScale(d.value))
+  .attr("fill", d => d.id === selectedBarId ? "#5C0000" : "#8E6D4B") // 根据选中状态设置颜色
+  .attr("fill-opacity", d => d.id === selectedBarId ? 0.8 : 0.5)
+  .attr("stroke", "#946B45")
+  .attr("stroke-width", 1)
+  .on("mouseover", function (event, d) {
+    if (d.id !== selectedBarId) { // 如果不是选中的柱状图
+      d3.select(this)
+        .attr("filter", "url(#shadow)")
+        .attr("fill", "#5C0000")
+        .attr("fill-opacity", 0.7)
+    }
+  })
+  .on("mouseout", function (event, d) {
+    if (d.id === selectedBarId) { // 如果是选中的柱状图，保持高亮
+      d3.select(this)
+        .attr("filter", "none")
+        .attr("fill", "#5C0000")
+        .attr("fill-opacity", 0.8)
+    } else { // 其他柱状图恢复原色
+      d3.select(this)
+        .attr("filter", "none")
+        .attr("fill", "#8E6D4B")
+        .attr("fill-opacity", 0.5)
+    }
+  })
+  .on("click", function (event, d) {
+    selectedBarId = d.id // 更新选中的柱状图ID
+    updateChart(selectedBarId) // 更新子图
+    // 更新所有柱状图的颜色
+    chart3Svg.selectAll("rect")
+      .attr("fill", d => d.id === selectedBarId ? "#5C0000" : "#8E6D4B")
+      .attr("fill-opacity", d => d.id === selectedBarId ? 0.8 : 0.5)
+  })
+
+// 为图表3的柱状图添加标签
+chart3Svg.selectAll(".bar-label")
+  .data(chart3Data)
+  .enter()
+  .append("text")
+  .text(d => d.value) // 显示柱状图的数值
+  .attr("x", d => chart3XScale(d.label) + chart3XScale.bandwidth() / 2)
+  .attr("y", d => chart3YScale(d.value) - 10) // 将文本显示在柱状图上方
+  .attr("font-family", "Times New Roman")
+  .attr("font-weight", "bold")
+  .attr("font-size", 10)
+  .attr("fill", "#896E50")
+  .attr("text-anchor", "middle")
+
+// 创建子图的函数
+function updateChart(selectedBarId) {
+  d3.json("chart2Data.json").then(jsonData => {
+    const data = jsonData[selectedBarId]; // 获取选定朝代的数据
+
+    const width = 550; // 增加SVG宽度
+    const height = 450;
+    const margin = { top: 40, right: 50, bottom: 40, left: 250 }; // 增加左边距
+
+    // 清空之前的图表内容
+    d3.select("#chart").selectAll("*").remove();
+
+    // 创建SVG图表容器
+    const svg = d3.select("#chart")
+      .attr("width", width)
+      .attr("height", height);
+
+    // 添加虚线边框框住下方图表
+    svg.append("rect")
+      .attr("x", margin.left - 215)
+      .attr("y", margin.top - 35)
+      .attr("width", width - margin.left - margin.right + 260)
+      .attr("height", height - margin.top - margin.bottom + 50)
+      .attr("fill", "none")
+      .attr("stroke", "gray")
+      .attr("stroke-width", 1)
+      .attr("stroke-dasharray", "5,5"); // 使用虚线框框住图表
+
+    // X轴比例尺
+    const xScale = d3.scaleLinear()
+      .domain([0, d3.max(data, d => d.count)])
+      .range([0, width - margin.left - margin.right]);
+
+    // Y轴比例尺
+    const yScale = d3.scaleBand()
+      .domain(data.map(d => d.title))
+      .range([margin.top, height - margin.bottom])
+      .padding(0.1);
+
+    // 绘制X轴
+    svg.append("g")
+      .attr("transform", `translate(${margin.left+10}, ${margin.top})`)
+      .call(d3.axisTop(xScale).ticks(5))
+      .call(g => g.selectAll(".tick text")
+        .style("font-size", "10")
+        .style("font-weight", "normal"))
+      .style("font-family", "TimesNewRomanPSMT, Times New Roman")
+      .call(g => g.selectAll(".domain").remove())
+      .call(g => g.selectAll(".tick line")
+        .attr("y2", height - margin.top - margin.bottom)
+        .attr("stroke-dasharray", "3,3")
+        .attr("stroke", "lightgray"));
+
+    // 绘制Y轴
+    svg.append("g")
+      .attr("transform", `translate(${margin.left+10}, 0)`)
+      .call(d3.axisLeft(yScale).tickSize(0))
+      .call(g => g.selectAll(".tick text")
+        .style("font-size", "10")
+        .style("font-weight", "700")
+        .style("fill", "#3A3A3A")
+        .style("font-family", "STKaitiSC-Black, Kaiti SC")
+        .attr("dy", "-0.2em"))
+      .call(g => g.selectAll(".domain").remove());
+
+    // 绘制条形图
+    svg.selectAll(".bar")
+      .data(data)
+      .enter()
+      .append("rect")
+      .attr("class", "bar")
+      .attr("x", margin.left+10)
+      .attr("y", d => yScale(d.title))
+      .attr("width", d => xScale(d.count))
+      .attr("height", yScale.bandwidth() * 0.4)
+      .attr("fill", "#D8D8D8")
+      .attr("stroke", "#979797")
+      .attr("stroke-width", 0.5);
+
+    // 绘制条形图标签
+    svg.selectAll(".label")
+      .data(data)
+      .enter()
+      .append("text")
+      .attr("class", "label")
+      .attr("x", d => margin.left + xScale(d.count) + 15)
+      .attr("y", d => yScale(d.title) + yScale.bandwidth() / 2 - 2)
+      .text(d => d.count)
+      .style("font-size", "10")
+      .style("font-weight", "normal")
+      .style("font-family", "TimesNewRomanPSMT, Times New Roman");
+
+    // 添加图表标题
+    svg.append("text")
+      .attr("x", width / 2)
+      .attr("y", margin.top / 2)
+      .attr("text-anchor", "middle")
+      .style("font-size", "13px")
+      .style("font-weight", "800")
+      .style("fill", "#927251")
+      .text("資源人數統計（人）");
+
+    // 高亮Chart 3中选定朝代的柱状图
+    chart3Svg.selectAll("rect")
+      .attr("fill", d => d.id === selectedBarId ? "#5C0000" : "#8E6D4B")
+      .attr("fill-opacity", d => d.id === selectedBarId ? 0.8 : 0.5);
+
+  }).catch(error => {
+    console.error("加载JSON文件时出错:", error);
+  });
+}
+
+// 初始化图表显示为默认的唐朝数据
+updateChart(selectedBarId)
+
+
+
+// 男女人数统计表
+// 绑定到id为chart4的SVG容器
+const chart4Container = d3.select("#chart4");
+const chart4Margin = {top: 30, right: 30, bottom: 40, left: 60};
+const chart4Width = chart4Container.attr("width") - chart4Margin.left - chart4Margin.right;
+const chart4Height = chart4Container.attr("height") - chart4Margin.top - chart4Margin.bottom;
+
+const chart4Svg = chart4Container.append("g")
+    .attr("transform", `translate(${chart4Margin.left}, ${chart4Margin.top})`);
+
+// 计算每个朝代的总人数
+const aggregatedData = chart4Data.reduce((acc, curr) => {
+    const {label, value} = curr;
+    acc[label] = (acc[label] || 0) + value;
+    return acc;
+}, {});
+
+// 创建x轴和y轴的比例尺
+const chart4XScale = d3.scaleBand()
+    .domain([...new Set(chart4Data.map(d => d.label))])  // 去重后的朝代名称
+    .range([0, chart4Width])
+    .padding(0.3);  // 增加组间的间距
+
+// 根据最大总人数合理设置 y 轴比例
+const chart4YScale = d3.scaleLinear()
+    .domain([0, d3.max(Object.values(aggregatedData)) + 10])  // 总人数最大值+10，增加一点空间
+    .range([chart4Height, 0]);
+
+const colorScale = d3.scaleOrdinal()
+    .domain(["男", "女"])
+    .range(["#5164AE", "#CC4B48"]);  // 使用不同颜色表示男女
+
+// 创建x轴
+const chart4XAxis = d3.axisBottom(chart4XScale);
+chart4Svg.append("g")
+    .attr("transform", `translate(0, ${chart4Height})`)
+    .call(chart4XAxis)
     .selectAll("text")
     .attr("transform", "rotate(-25)")
     .style("text-anchor", "end")
     .attr("dx", "1em")
     .attr("dy", "1em")
-    .attr("fill", "rgba(137, 110, 80, 100)")
+    .attr("fill", "rgb(43,41,42)")
     .style("font-family", "Times New Roman")
     .style("font-size", "13px")
-    .style("font-weight", "bold")
-  
-  const chart3YAxis = d3.axisLeft(chart3YScale).ticks(8)
-  chart3Svg.append("g")
-    .call(chart3YAxis)
-  
-  // Create Chart 3 bars  
-  chart3Svg.selectAll("rect")
-    .data(chart3Data)
+    .style("font-weight", "bold");
+
+// 创建y轴
+const chart4YAxis = d3.axisLeft(chart4YScale).ticks(8);
+chart4Svg.append("g").call(chart4YAxis);
+
+// 绘制柱状图
+const shiftRight = 5;
+chart4Svg.selectAll("rect")
+    .data(chart4Data)
     .enter()
     .append("rect")
-    .attr("x", d => chart3XScale(d.label))
-    .attr("y", d => chart3YScale(d.value))
-    .attr("width", chart3XScale.bandwidth())
-    .attr("height", d => chart3Height - chart3YScale(d.value))
-    .attr("fill", "#8E6D4B")
-    .attr("fill-opacity", 0.5)
-    .attr("stroke", "#946B45")
+    .attr("x", d => chart4XScale(d.label)
+        + (d.gender === "男" ? -chart4XScale.bandwidth() / 3 : chart4XScale.bandwidth() / 5)
+        + chart4XScale.bandwidth() / 5
+        + shiftRight)  // 向右整体移动
+    .attr("y", d => chart4YScale(d.value))
+    .attr("width", chart4XScale.bandwidth() / 2.5)  // 调整宽度，确保两柱之间的距离
+    .attr("height", d => chart4Height - chart4YScale(d.value))
+    .attr("fill", d => colorScale(d.gender))
+    .attr("fill-opacity", 1)
     .attr("stroke-width", 1)
-    .on("mouseover", function () {
-      d3.select(this)
-        .attr("filter", "url(#shadow)")
-        .attr("fill", "#5C0000")
-        .attr("fill-opacity", 0.5)
+    .on("mouseover", function (event, d) {
+        d3.select(this).attr("fill-opacity", 0.8);
+
+        // 显示男女数量的提示框
+        tooltip.style("display", "block")
+               .html(`${d.gender}: ${d.value}`)
+               .style("left", `${event.pageX + 10}px`)
+               .style("top", `${event.pageY - 10}px`);
     })
     .on("mouseout", function () {
-      d3.select(this)
-        .attr("filter", "none")
-        .attr("fill", "#8E6D4B")
-        .attr("fill-opacity", 0.5)
-    })
-  
-  chart3Svg.selectAll(".bar-label")
-    .data(chart3Data)
-    .enter()
-    .append("text")
-    .text(d => d.value) // 显示柱状的数值
-    .attr("x", d => chart3XScale(d.label) + chart3XScale.bandwidth() / 2)
-    .attr("y", d => chart3YScale(d.value) - 10) // 将文本显示在柱状上方
+        d3.select(this).attr("fill-opacity", 1);
+
+        // 隐藏提示框
+        tooltip.style("display", "none");
+    });
+
+// 创建一个提示框，用于鼠标悬停时显示男女数量
+const tooltip = d3.select("body").append("div")
+    .style("position", "absolute")
+    .style("background-color", "white")
+    .style("border", "1px solid #ddd")
+    .style("padding", "5px")
+    .style("font-family", "Times New Roman")
+    .style("font-size", "12px")
+    .style("display", "none");
+
+// 添加朝代的总人数标线和默认的总人数标签
+Object.keys(aggregatedData).forEach(label => {
+    const totalValue = aggregatedData[label];
+    const xPosition = chart4XScale(label) + chart4XScale.bandwidth() / 2;
+    const yPosition = chart4YScale(totalValue);
+
+    // 绘制加宽的总人数横线
+    chart4Svg.append("line")
+        .attr("x1", xPosition - chart4XScale.bandwidth() / 2)
+        .attr("x2", xPosition + chart4XScale.bandwidth() / 2)
+        .attr("y1", yPosition)
+        .attr("y2", yPosition)
+        .attr("stroke", "black")
+        .attr("stroke-width", 1.5);
+
+    // 添加总人数的默认标签在横线正上方
+    chart4Svg.append("text")
+        .attr("x", xPosition)
+        .attr("y", yPosition - 5)
+        .text(totalValue)
+        .attr("font-family", "Times New Roman")
+        .attr("font-size", 12)
+        .attr("fill", "#2b292a")
+        .attr("text-anchor", "middle");
+});
+
+// 添加图例（Legend）
+const legend = chart4Svg.append("g")
+    .attr("transform", `translate(${chart4Width - 20}, ${chart4Height / 8})`);  // 设置图例位置为底部
+
+// 图例 - 男
+legend.append("rect")
+    .attr("x", 0)
+    .attr("y", 0)
+    .attr("width", 15)
+    .attr("height", 15)
+    .attr("fill", "#5164AE");
+
+legend.append("text")
+    .attr("x", 20)
+    .attr("y", 12)
+    .text("男")
     .attr("font-family", "Times New Roman")
-    .attr("font-weight", "bold")
-    .attr("font-size", 10)
-    .attr("fill", "#896E50")
-    .attr("text-anchor", "middle")
-  
-  
-  
-  const chartImageContainer = d3.select("#image-container") // 图像容器的选择器
-  
-  chart3Svg.selectAll("rect")
-    .on("click", function (event, d) {
-      const selectedImageId = d.id // 获取柱状的标识符
-      const imagePath = `./images/${selectedImageId}.svg` // 构建图像路径
-  
-      // 更新图像容器中的图像
-      chartImageContainer.attr("src", imagePath)
-    })
-  
-  
+    .attr("font-size", 12)
+    .attr("fill", "#000");
+
+// 图例 - 女
+legend.append("rect")
+    .attr("x", 0)
+    .attr("y", 25)
+    .attr("width", 15)
+    .attr("height", 15)
+    .attr("fill", "#CC4B48");
+
+legend.append("text")
+    .attr("x", 20)
+    .attr("y", 37)
+    .text("女")
+    .attr("font-family", "Times New Roman")
+    .attr("font-size", 12)
+    .attr("fill", "#000");

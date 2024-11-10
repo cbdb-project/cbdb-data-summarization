@@ -47,7 +47,58 @@
     width: 50%;
     border: none;
     /* border-top: 1px solid #ccc;   */
-    margin: 50px 20px 20px 20px;
+    margin: 15px 20px 20px 20px;
     border-top: 1px dashed rgb(184, 184, 184);
   }
-  
+/* 使 chart-container 相对定位 */
+.chart-container {
+    position: relative;
+}
+
+/* 按钮容器样式，确保按钮与图表右侧对齐 */
+.button-container {
+       position: absolute;
+    right: 400px;
+    top: 120px;
+    display: flex;
+    align-items: center;
+}
+
+/* 按钮的基础样式 */
+#toggleGender {
+    background-color: rgba(139, 69, 19, 0.5);
+    color: white;
+    border: 1px solid #8B4513;
+    border-radius: 2px;
+    padding: 4px 8px;
+    cursor: pointer;
+    font-family: 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 14px;
+    transition: background-color 0.3s, transform 0.1s;
+}
+#ageToggleGender{
+    background-color: rgba(139, 69, 19, 0.5);
+    color: white;
+    border: 1px solid #8B4513;
+    border-radius: 2px;
+    padding: 4px 8px;
+    cursor: pointer;
+    font-family: 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 14px;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+/* 鼠标悬停时的效果 */
+#toggleGender:hover {
+    background-color: rgba(139, 69, 19, 1); /* 鼠标悬停时变深 */
+    transform: scale(1.05); /* 微微放大 */
+}
+
+/* 鼠标按下时的效果 */
+#toggleGender:active {
+    background-color: rgba(105, 50, 18, 0.9); /* 点击时的深棕色 */
+    transform: scale(0.95); /* 轻微缩小 */
+}
+
