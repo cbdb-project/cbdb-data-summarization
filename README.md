@@ -19,6 +19,7 @@ Visit the [CBDB Data Summarization Demonstration](https://cbdb-project.github.io
 
 [Yitian CHEN](https://github.com/oscarchen666), Visual Analytics and Intelligence Group, Zhejiang University
 
+[Xiaoyan GU](https://github.com/123carrot), Visual Analytics and Intelligence Group, Zhejiang University
 
 [Hongsu WANG](https://github.com/sudoghut), CBDB
 
