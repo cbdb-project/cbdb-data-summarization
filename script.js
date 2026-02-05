@@ -498,8 +498,14 @@ const chart4Height = chart4Container.attr("height") - chart4Margin.top - chart4M
 const chart4Svg = chart4Container.append("g")
     .attr("transform", `translate(${chart4Margin.left}, ${chart4Margin.top})`);
 
+// 过滤掉 nan 值
+const filteredChart4Data = chart4Data.filter(d =>
+    d.label && d.label.toLowerCase() !== "nan" &&
+    d.value !== null && !isNaN(d.value)
+);
+
 // 计算每个朝代的总人数
-const aggregatedData = chart4Data.reduce((acc, curr) => {
+const aggregatedData = filteredChart4Data.reduce((acc, curr) => {
     const {label, value} = curr;
     acc[label] = (acc[label] || 0) + value;
     return acc;
@@ -507,7 +513,7 @@ const aggregatedData = chart4Data.reduce((acc, curr) => {
 
 // 创建x轴和y轴的比例尺
 const chart4XScale = d3.scaleBand()
-    .domain([...new Set(chart4Data.map(d => d.label))])  // 去重后的朝代名称
+    .domain([...new Set(filteredChart4Data.map(d => d.label))])  // 去重后的朝代名称
     .range([0, chart4Width])
     .padding(0.3);  // 增加组间的间距
 
@@ -542,7 +548,7 @@ chart4Svg.append("g").call(chart4YAxis);
 // 绘制柱状图
 const shiftRight = 5;
 chart4Svg.selectAll("rect")
-    .data(chart4Data)
+    .data(filteredChart4Data)
     .enter()
     .append("rect")
     .attr("x", d => chart4XScale(d.label)
