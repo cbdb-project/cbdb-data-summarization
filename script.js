@@ -1,54 +1,65 @@
 const chart3Data = [
-{ label: "Tang", value: 133, id: "Tang"},
-{ label: "Song", value: 429, id: "Song"},
-{ label: "Liao", value: 9, id: "Liao"},
-{ label: "Jin", value: 43, id: "Jin"},
-{ label: "Yuan", value: 164, id: "Yuan"},
-{ label: "Ming", value: 508, id: "Ming"},
-{ label: "Qing", value: 232, id: "Qing"}
+{ label: "Tang", value: 142, id: "Tang"},
+{ label: "Song", value: 444, id: "Song"},
+{ label: "Liao", value: 12, id: "Liao"},
+{ label: "Jin", value: 46, id: "Jin"},
+{ label: "Yuan", value: 178, id: "Yuan"},
+{ label: "Ming", value: 529, id: "Ming"},
+{ label: "Qing", value: 246, id: "Qing"}
 ];// Chart 3 Data
 const chart1Data = [
-{ label: "Tang", value: 53953 },
-{ label: "5 Dynasties", value: 1984 },
-{ label: "Song", value: 79644 },
+{ label: "Tang", value: 57492 },
+{ label: "5 Dynasties", value: 2567 },
+{ label: "Song", value: 82741 },
 { label: "Liao", value: 339 },
-{ label: "Jin", value: 792 },
-{ label: "Yuan", value: 25163 },
-{ label: "Ming", value: 222194 },
-{ label: "Qing", value: 230463 },
-{ label: "Minguo", value: 4681 }
+{ label: "Jin", value: 793 },
+{ label: "Yuan", value: 25291 },
+{ label: "Ming", value: 224110 },
+{ label: "Qing", value: 234619 },
+{ label: "Minguo", value: 4688 }
 ];// Chart 1 Data 
 const chart2Data = [
-{ label: "Number of Persons 人數", value: 649533 },
-{ label: "Social Associations 社會關係", value: 188365 },
-{ label: "Biographical Addresses 地址", value: 448799 },
-{ label: "Alternate Names 別名", value: 202437 },
-{ label: "Kin Relationships 親屬關係", value: 543846 },
-{ label: "Entry into Office 入仕", value: 260287 },
-{ label: "Office Postings 任官", value: 1979566 },
-{ label: "Social Distinction 社會區分", value: 64264 },
-{ label: "Texts 著作", value: 58288 }
+{ label: "Number of Persons 人數", value: 656387 },
+{ label: "Social Associations 社會關係", value: 186841 },
+{ label: "Biographical Addresses 地址", value: 455657 },
+{ label: "Alternate Names 別名", value: 206098 },
+{ label: "Kin Relationships 親屬關係", value: 553270 },
+{ label: "Entry into Office 入仕", value: 263238 },
+{ label: "Office Postings 任官", value: 600966 },
+{ label: "Social Distinction 社會區分", value: 69295 },
+{ label: "Texts 著作", value: 60834 }
 ];// Chart 2 Data
 const chart4Data = [
-{ label: "Tang", gender: "女", value: 4248 },
-{ label: "Tang", gender: "男", value: 49705 },
-{ label: "5 Dynasties", gender: "男", value: 1871 },
-{ label: "5 Dynasties", gender: "女", value: 113 },
-{ label: "Song", gender: "女", value: 4515 },
-{ label: "Song", gender: "男", value: 75129 },
+{ label: "Tang", gender: "女", value: 4541 },
+{ label: "Tang", gender: "男", value: 48706 },
+{ label: "Tang", gender: "nan", value: 4245 },
+{ label: "5 Dynasties", gender: "nan", value: 9 },
+{ label: "5 Dynasties", gender: "男", value: 2414 },
+{ label: "5 Dynasties", gender: "女", value: 144 },
+{ label: "Song", gender: "女", value: 4822 },
+{ label: "Song", gender: "男", value: 77764 },
+{ label: "Song", gender: "nan", value: 155 },
 { label: "Liao", gender: "男", value: 254 },
 { label: "Liao", gender: "女", value: 85 },
-{ label: "Jin", gender: "男", value: 738 },
+{ label: "Jin", gender: "男", value: 739 },
 { label: "Jin", gender: "女", value: 54 },
-{ label: "Yuan", gender: "女", value: 861 },
-{ label: "Yuan", gender: "男", value: 24302 },
-{ label: "Ming", gender: "女", value: 36444 },
-{ label: "Ming", gender: "男", value: 185750 },
-{ label: "Qing", gender: "女", value: 8372 },
-{ label: "Qing", gender: "男", value: 222091 },
+{ label: "Yuan", gender: "nan", value: 75 },
+{ label: "Yuan", gender: "女", value: 899 },
+{ label: "Yuan", gender: "男", value: 24317 },
+{ label: "Ming", gender: "女", value: 36681 },
+{ label: "Ming", gender: "男", value: 183228 },
+{ label: "Ming", gender: "nan", value: 4201 },
+{ label: "Qing", gender: "男", value: 211442 },
+{ label: "Qing", gender: "nan", value: 14403 },
+{ label: "Qing", gender: "女", value: 8774 },
 { label: "Minguo", gender: "女", value: 22 },
-{ label: "Minguo", gender: "男", value: 4659 }
+{ label: "Minguo", gender: "nan", value: 460 },
+{ label: "Minguo", gender: "男", value: 4206 }
 ];//Chart 4 Data
+
+
+
+
 
 
 
