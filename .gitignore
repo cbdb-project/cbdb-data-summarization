@@ -1,2 +1,3 @@
 *.db
 /cbdb_sqlite/
+.claude/
