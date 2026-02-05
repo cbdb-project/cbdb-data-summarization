@@ -389,7 +389,15 @@ chart3Svg.selectAll(".bar-label")
 // 创建子图的函数
 function updateChart(selectedBarId) {
   d3.json("chart2Data.json").then(jsonData => {
-    const data = jsonData[selectedBarId]; // 获取选定朝代的数据
+    const rawData = jsonData[selectedBarId]; // 获取选定朝代的数据
+    // 过滤掉指定的数据源
+    const hiddenSources = [
+      "維基數據 (Wikidata)",
+      "中文維基百科 (Wikipedia)",
+      "英文維基百科 (Wikipedia)",
+      "中國哲學書電子化計劃 (ctext)"
+    ];
+    const data = rawData.filter(d => !hiddenSources.includes(d.title));
 
     const width = 550; // 增加SVG宽度
     const height = 450;
