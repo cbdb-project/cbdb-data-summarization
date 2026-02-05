@@ -512,6 +512,7 @@ const chart4Svg = chart4Container.append("g")
 // 过滤掉 nan 值
 const filteredChart4Data = chart4Data.filter(d =>
     d.label && d.label.toLowerCase() !== "nan" &&
+    d.gender && d.gender.toLowerCase() !== "nan" &&
     d.value !== null && !isNaN(d.value)
 );
 
