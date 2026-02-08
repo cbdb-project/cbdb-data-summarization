@@ -14,20 +14,20 @@ const chart1Data = [
 { label: "Liao", value: 339 },
 { label: "Jin", value: 793 },
 { label: "Yuan", value: 25291 },
-{ label: "Ming", value: 224110 },
-{ label: "Qing", value: 234619 },
+{ label: "Ming", value: 224160 },
+{ label: "Qing", value: 234618 },
 { label: "Minguo", value: 4688 }
 ];// Chart 1 Data 
 const chart2Data = [
-{ label: "Number of Persons 人數", value: 656387 },
-{ label: "Social Associations 社會關係", value: 186841 },
-{ label: "Biographical Addresses 地址", value: 455657 },
-{ label: "Alternate Names 別名", value: 206098 },
-{ label: "Kin Relationships 親屬關係", value: 553270 },
-{ label: "Entry into Office 入仕", value: 263238 },
-{ label: "Office Postings 任官", value: 600966 },
-{ label: "Social Distinction 社會區分", value: 69295 },
-{ label: "Texts 著作", value: 60834 }
+{ label: "Number of Persons 人數", value: 656436 },
+{ label: "Social Associations 社會關係", value: 186876 },
+{ label: "Biographical Addresses 地址", value: 455705 },
+{ label: "Alternate Names 別名", value: 206132 },
+{ label: "Kin Relationships 親屬關係", value: 553330 },
+{ label: "Entry into Office 入仕", value: 263267 },
+{ label: "Office Postings 任官", value: 601002 },
+{ label: "Social Distinction 社會區分", value: 69344 },
+{ label: "Texts 著作", value: 60846 }
 ];// Chart 2 Data
 const chart4Data = [
 { label: "Tang", gender: "女", value: 4541 },
@@ -46,16 +46,20 @@ const chart4Data = [
 { label: "Yuan", gender: "nan", value: 75 },
 { label: "Yuan", gender: "女", value: 899 },
 { label: "Yuan", gender: "男", value: 24317 },
-{ label: "Ming", gender: "女", value: 36681 },
-{ label: "Ming", gender: "男", value: 183228 },
+{ label: "Ming", gender: "女", value: 36686 },
+{ label: "Ming", gender: "男", value: 183273 },
 { label: "Ming", gender: "nan", value: 4201 },
-{ label: "Qing", gender: "男", value: 211442 },
+{ label: "Qing", gender: "男", value: 211441 },
 { label: "Qing", gender: "nan", value: 14403 },
 { label: "Qing", gender: "女", value: 8774 },
 { label: "Minguo", gender: "女", value: 22 },
 { label: "Minguo", gender: "nan", value: 460 },
 { label: "Minguo", gender: "男", value: 4206 }
 ];//Chart 4 Data
+
+
+
+
 
 
 
