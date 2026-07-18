@@ -2,7 +2,11 @@
     "Tang": [
         {
             "title": "維基數據 (Wikidata)",
-            "count": 52570
+            "count": 52573
+        },
+        {
+            "title": "唐五代人物傳記與社會網絡資料庫(1.5版)",
+            "count": 27784
         },
         {
             "title": "唐五代人物傳記與社會網絡資料庫(1.0版)",
@@ -26,15 +30,15 @@
         },
         {
             "title": "中國哲學書電子化計劃 (ctext)",
-            "count": 3442
+            "count": 3441
         },
         {
             "title": "Pers DB / 唐代人物知識ベース",
-            "count": 3338
+            "count": 3337
         },
         {
             "title": "中文維基百科 (Wikipedia)",
-            "count": 2862
+            "count": 2884
         },
         {
             "title": "浙江大學圖書館中國歷代墓誌數據庫",
@@ -75,16 +79,12 @@
         {
             "title": "舊唐書",
             "count": 106
-        },
-        {
-            "title": "雲霄廳志",
-            "count": 102
         }
     ],
     "Song": [
         {
             "title": "維基數據 (Wikidata)",
-            "count": 52383
+            "count": 52386
         },
         {
             "title": "宋人傳記資料索引(電子版)",
@@ -104,7 +104,7 @@
         },
         {
             "title": "中文維基百科 (Wikipedia)",
-            "count": 2744
+            "count": 3003
         },
         {
             "title": "寶祐登科錄",
@@ -174,7 +174,7 @@
         },
         {
             "title": "中文維基百科 (Wikipedia)",
-            "count": 181
+            "count": 182
         },
         {
             "title": "中國哲學書電子化計劃 (ctext)",
@@ -236,7 +236,7 @@
         },
         {
             "title": "中文維基百科 (Wikipedia)",
-            "count": 69
+            "count": 74
         },
         {
             "title": "新出宋代墓志碑刻輯錄",
@@ -302,7 +302,7 @@
     "Yuan": [
         {
             "title": "維基數據 (Wikidata)",
-            "count": 22518
+            "count": 22520
         },
         {
             "title": "元人傳記資料索引",
@@ -314,7 +314,7 @@
         },
         {
             "title": "中文維基百科 (Wikipedia)",
-            "count": 1872
+            "count": 2191
         },
         {
             "title": "全元文",
@@ -384,7 +384,7 @@
     "Ming": [
         {
             "title": "維基數據 (Wikidata)",
-            "count": 182800
+            "count": 182803
         },
         {
             "title": "明清進士題名錄索引",
@@ -392,11 +392,11 @@
         },
         {
             "title": "中文維基百科 (Wikipedia)",
-            "count": 19831
+            "count": 20290
         },
         {
             "title": "人名權威資料（中央研究院歷史語言研究所）",
-            "count": 15259
+            "count": 15258
         },
         {
             "title": "中國哲學書電子化計劃 (ctext)",
@@ -470,11 +470,11 @@
         },
         {
             "title": "維基數據 (Wikidata)",
-            "count": 84944
+            "count": 84946
         },
         {
             "title": "人名權威資料（中央研究院歷史語言研究所）",
-            "count": 29355
+            "count": 29354
         },
         {
             "title": "明清進士題名錄索引",
@@ -486,7 +486,7 @@
         },
         {
             "title": "中文維基百科 (Wikipedia)",
-            "count": 11672
+            "count": 12430
         },
         {
             "title": "中國哲學書電子化計劃 (ctext)",

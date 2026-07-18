@@ -1,43 +1,43 @@
 const chart3Data = [
-{ label: "Tang", value: 146, id: "Tang"},
-{ label: "Song", value: 451, id: "Song"},
+{ label: "Tang", value: 147, id: "Tang"},
+{ label: "Song", value: 453, id: "Song"},
 { label: "Liao", value: 13, id: "Liao"},
 { label: "Jin", value: 48, id: "Jin"},
-{ label: "Yuan", value: 186, id: "Yuan"},
-{ label: "Ming", value: 536, id: "Ming"},
-{ label: "Qing", value: 256, id: "Qing"}
+{ label: "Yuan", value: 187, id: "Yuan"},
+{ label: "Ming", value: 537, id: "Ming"},
+{ label: "Qing", value: 258, id: "Qing"}
 ];// Chart 3 Data
 const chart1Data = [
-{ label: "Tang", value: 57479 },
+{ label: "Tang", value: 57478 },
 { label: "5 Dynasties", value: 2589 },
-{ label: "Song", value: 83370 },
+{ label: "Song", value: 83371 },
 { label: "Liao", value: 341 },
 { label: "Jin", value: 799 },
 { label: "Yuan", value: 25310 },
-{ label: "Ming", value: 224936 },
-{ label: "Qing", value: 236583 },
+{ label: "Ming", value: 225049 },
+{ label: "Qing", value: 236737 },
 { label: "Minguo", value: 4687 }
 ];// Chart 1 Data 
 const chart2Data = [
-{ label: "Number of Persons 人數", value: 659810 },
-{ label: "Social Associations 社會關係", value: 189377 },
-{ label: "Biographical Addresses 地址", value: 459254 },
-{ label: "Alternate Names 別名", value: 207725 },
-{ label: "Kin Relationships 親屬關係", value: 558929 },
-{ label: "Entry into Office 入仕", value: 264186 },
-{ label: "Office Postings 任官", value: 589326 },
-{ label: "Social Distinction 社會區分", value: 72486 },
-{ label: "Texts 著作", value: 62011 }
+{ label: "Number of Persons 人數", value: 660078 },
+{ label: "Social Associations 社會關係", value: 189497 },
+{ label: "Biographical Addresses 地址", value: 459597 },
+{ label: "Alternate Names 別名", value: 207862 },
+{ label: "Kin Relationships 親屬關係", value: 559363 },
+{ label: "Entry into Office 入仕", value: 264260 },
+{ label: "Office Postings 任官", value: 589469 },
+{ label: "Social Distinction 社會區分", value: 72636 },
+{ label: "Texts 著作", value: 62035 }
 ];// Chart 2 Data
 const chart4Data = [
 { label: "Tang", gender: "女", value: 4541 },
-{ label: "Tang", gender: "男", value: 48692 },
+{ label: "Tang", gender: "男", value: 48691 },
 { label: "Tang", gender: "nan", value: 4246 },
 { label: "5 Dynasties", gender: "nan", value: 9 },
 { label: "5 Dynasties", gender: "男", value: 2434 },
 { label: "5 Dynasties", gender: "女", value: 146 },
 { label: "Song", gender: "女", value: 5047 },
-{ label: "Song", gender: "男", value: 78163 },
+{ label: "Song", gender: "男", value: 78164 },
 { label: "Song", gender: "nan", value: 160 },
 { label: "Liao", gender: "男", value: 256 },
 { label: "Liao", gender: "女", value: 85 },
@@ -46,16 +46,20 @@ const chart4Data = [
 { label: "Yuan", gender: "nan", value: 75 },
 { label: "Yuan", gender: "女", value: 899 },
 { label: "Yuan", gender: "男", value: 24336 },
-{ label: "Ming", gender: "女", value: 36790 },
-{ label: "Ming", gender: "男", value: 183948 },
-{ label: "Ming", gender: "nan", value: 4198 },
-{ label: "Qing", gender: "男", value: 213136 },
-{ label: "Qing", gender: "nan", value: 14401 },
-{ label: "Qing", gender: "女", value: 9046 },
+{ label: "Ming", gender: "女", value: 36806 },
+{ label: "Ming", gender: "男", value: 184046 },
+{ label: "Ming", gender: "nan", value: 4197 },
+{ label: "Qing", gender: "男", value: 213227 },
+{ label: "Qing", gender: "nan", value: 14400 },
+{ label: "Qing", gender: "女", value: 9110 },
 { label: "Minguo", gender: "女", value: 22 },
 { label: "Minguo", gender: "nan", value: 459 },
 { label: "Minguo", gender: "男", value: 4206 }
 ];//Chart 4 Data
+
+
+
+
 
 
 
