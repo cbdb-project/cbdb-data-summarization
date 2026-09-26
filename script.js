@@ -14,20 +14,20 @@ const chart1Data = [
 { label: "Liao", value: 341 },
 { label: "Jin", value: 799 },
 { label: "Yuan", value: 25311 },
-{ label: "Ming", value: 225562 },
-{ label: "Qing", value: 238104 },
+{ label: "Ming", value: 225593 },
+{ label: "Qing", value: 238257 },
 { label: "Minguo", value: 4686 }
 ];// Chart 1 Data 
 const chart2Data = [
-{ label: "Number of Persons 人數", value: 661969 },
-{ label: "Social Associations 社會關係", value: 190048 },
-{ label: "Biographical Addresses 地址", value: 461637 },
-{ label: "Alternate Names 別名", value: 208828 },
-{ label: "Kin Relationships 親屬關係", value: 562711 },
-{ label: "Entry into Office 入仕", value: 264975 },
-{ label: "Office Postings 任官", value: 591518 },
-{ label: "Social Distinction 社會區分", value: 73530 },
-{ label: "Texts 著作", value: 62377 }
+{ label: "Number of Persons 人數", value: 662152 },
+{ label: "Social Associations 社會關係", value: 190064 },
+{ label: "Biographical Addresses 地址", value: 461830 },
+{ label: "Alternate Names 別名", value: 208878 },
+{ label: "Kin Relationships 親屬關係", value: 562953 },
+{ label: "Entry into Office 入仕", value: 265037 },
+{ label: "Office Postings 任官", value: 591683 },
+{ label: "Social Distinction 社會區分", value: 73571 },
+{ label: "Texts 著作", value: 62378 }
 ];// Chart 2 Data
 const chart4Data = [
 { label: "Tang", gender: "女", value: 4541 },
@@ -47,15 +47,19 @@ const chart4Data = [
 { label: "Yuan", gender: "女", value: 899 },
 { label: "Yuan", gender: "男", value: 24337 },
 { label: "Ming", gender: "女", value: 36839 },
-{ label: "Ming", gender: "男", value: 184531 },
+{ label: "Ming", gender: "男", value: 184562 },
 { label: "Ming", gender: "nan", value: 4192 },
-{ label: "Qing", gender: "男", value: 214175 },
+{ label: "Qing", gender: "男", value: 214270 },
 { label: "Qing", gender: "nan", value: 14397 },
-{ label: "Qing", gender: "女", value: 9532 },
+{ label: "Qing", gender: "女", value: 9590 },
 { label: "Minguo", gender: "女", value: 22 },
 { label: "Minguo", gender: "nan", value: 459 },
 { label: "Minguo", gender: "男", value: 4205 }
 ];//Chart 4 Data
+
+
+
+
 
 
 
