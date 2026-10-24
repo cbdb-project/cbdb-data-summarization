@@ -8,30 +8,30 @@ const chart3Data = [
 { label: "Qing", value: 263, id: "Qing"}
 ];// Chart 3 Data
 const chart1Data = [
-{ label: "Tang", value: 57478 },
+{ label: "Tang", value: 57480 },
 { label: "5 Dynasties", value: 2589 },
 { label: "Song", value: 83376 },
 { label: "Liao", value: 341 },
 { label: "Jin", value: 799 },
 { label: "Yuan", value: 25328 },
-{ label: "Ming", value: 225722 },
-{ label: "Qing", value: 239168 },
+{ label: "Ming", value: 225885 },
+{ label: "Qing", value: 239357 },
 { label: "Minguo", value: 4686 }
 ];// Chart 1 Data 
 const chart2Data = [
-{ label: "Number of Persons 人數", value: 663219 },
-{ label: "Social Associations 社會關係", value: 190126 },
-{ label: "Biographical Addresses 地址", value: 462873 },
-{ label: "Alternate Names 別名", value: 209123 },
-{ label: "Kin Relationships 親屬關係", value: 564132 },
-{ label: "Entry into Office 入仕", value: 265455 },
-{ label: "Office Postings 任官", value: 592142 },
-{ label: "Social Distinction 社會區分", value: 73870 },
-{ label: "Texts 著作", value: 62408 }
+{ label: "Number of Persons 人數", value: 663571 },
+{ label: "Social Associations 社會關係", value: 190132 },
+{ label: "Biographical Addresses 地址", value: 463233 },
+{ label: "Alternate Names 別名", value: 209224 },
+{ label: "Kin Relationships 親屬關係", value: 564518 },
+{ label: "Entry into Office 入仕", value: 265623 },
+{ label: "Office Postings 任官", value: 592350 },
+{ label: "Social Distinction 社會區分", value: 73942 },
+{ label: "Texts 著作", value: 62409 }
 ];// Chart 2 Data
 const chart4Data = [
 { label: "Tang", gender: "女", value: 4541 },
-{ label: "Tang", gender: "男", value: 48692 },
+{ label: "Tang", gender: "男", value: 48694 },
 { label: "Tang", gender: "nan", value: 4245 },
 { label: "5 Dynasties", gender: "nan", value: 9 },
 { label: "5 Dynasties", gender: "男", value: 2434 },
@@ -47,15 +47,19 @@ const chart4Data = [
 { label: "Yuan", gender: "女", value: 899 },
 { label: "Yuan", gender: "男", value: 24354 },
 { label: "Ming", gender: "女", value: 36840 },
-{ label: "Ming", gender: "男", value: 184690 },
+{ label: "Ming", gender: "男", value: 184853 },
 { label: "Ming", gender: "nan", value: 4192 },
-{ label: "Qing", gender: "男", value: 214817 },
+{ label: "Qing", gender: "男", value: 214953 },
 { label: "Qing", gender: "nan", value: 14397 },
-{ label: "Qing", gender: "女", value: 9954 },
+{ label: "Qing", gender: "女", value: 10007 },
 { label: "Minguo", gender: "女", value: 22 },
 { label: "Minguo", gender: "nan", value: 459 },
 { label: "Minguo", gender: "男", value: 4205 }
 ];//Chart 4 Data
+
+
+
+
 
 
 
